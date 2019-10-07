@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+
+html{
+
+	background: url(img/image7.jpg) no-repeat;
+	background-size: 100%
+}
+
+#example .new { opacity: 0; }
+#example { 
+	padding:50px; 
+	width:92%; 
+	display:none; 
+	font-size: 1.4em;
+	color: #fff;
+	font-family: 'Playfair Display SC', serif;
+	line-height: 1.5;
+}
+
+#example .div_opacity {
+  -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+  opacity: 1;
+}
+
